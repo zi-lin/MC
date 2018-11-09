@@ -33,7 +33,7 @@ PKU-500 is from **NLPCC-ICCPOL 2016 shared task: Chinese word similarity measure
 
 ## word embeddings
 
-`word_vec.txt` is the embeddings of words occuring in the datasets, trained through CBOW models (word2vec). The dimension is set to 50 and the window size 5.
+`skipgram.txt` and `cbow.txt` is the embeddings of words occuring in the datasets, trained through skip-gram and CBOW models (word2vec) respectively. The dimension is set to 50 and the window size 5.
 
 ## Result
 ### Overall result
